@@ -1,0 +1,10 @@
+<h3>Here are all of the definitions of the word</h3>
+
+<ul>
+  <% @word.definitions().each() do |definition| %>
+    <li><a href="/definitions/<%= definition.id() %>"><%= definition.meaning() %><%= definition.speech() %> <%= definition.origin() %></a></li>
+  <% end %>
+</ul>
+
+<a href="/definition_form/<%= @word.id %>/definitions/new">Add a new definition</a>
+<a href="/">Return to Main Page</a>

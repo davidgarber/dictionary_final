@@ -1,0 +1,14 @@
+<form action="/words/<%= @word.id() %>/definitions" method="post">
+  <input id="word_id" name="word_id" type="hidden" value="<%= @word.id() %>">
+
+  <label for="meaning">Word's meaning:</label>
+  <input id="meaning" name="meaning" type="text">
+
+  <label for="speech">Word's part of speech:</label>
+  <input id="speech" name="speech" type="text">
+
+  <label for="origin">Word's origin:</label>
+  <input id="origin" name="origin" type="text">
+
+  <button type="submit">Add definition</button>
+</form>
