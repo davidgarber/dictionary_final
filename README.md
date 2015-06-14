@@ -28,9 +28,6 @@ Click on "Add a new word."
 After adding the word you can "See the word list", "Add a new word" or
 "Return to the Main Page."
 
-If I get it to work in the next 45 minutes, you will be able to click
-on the word and add a definition.
-
 Copyright 2015
 
 Licensing - it's yours.
